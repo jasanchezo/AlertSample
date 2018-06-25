@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onClickShowAlert(view: View) {
         // SE CREA EL OBJETO DE ALERT
-        var myAlertBuilder = AlertDialog.Builder(this@MainActivity)
+        var myAlertBuilder = AlertDialog.Builder(this)
 
         // SE ESTABLECE EL TITILO DEL DIALOGO
         myAlertBuilder.setTitle(getString(R.string.alert_title))
